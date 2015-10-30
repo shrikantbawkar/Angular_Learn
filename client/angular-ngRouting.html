@@ -1,0 +1,36 @@
+<html ng-app="myApp">
+<head>
+<title>Angular Scope</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<ul class="nav">
+					<li><a href="#/test">test</a></li>
+					<li><a href="#/service">service</a></li>
+					<li><a href="#/event/1">route1</a></li>
+					<li><a href="#/event/2">route2</a></li>
+					<li><a href="#/event/3">route3</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div ng-controller="my-ctrl">
+			<div ng-view>
+				
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.min.js"></script>
+	<script src="js/app/app_ngRoute.js"></script>
+	<script src="js/app/controllers/myControllerngRoute.js"></script>
+	<script src="js/app/filters/durationFilter.js"></script>	
+	<script src="js/app/services/service_callbacks.js"></script> 
+	
+</body>
+</html>

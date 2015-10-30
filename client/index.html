@@ -1,0 +1,73 @@
+<html ng-app="myApp">
+<head>
+<title>Angular Scope</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/ng-grid.css" rel="stylesheet" />
+<link href="css/SIte.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="nav navbar-inverse">
+				<ul class="nav navbar-nav">
+					<li><a ui-sref=".scope">scope</a></li>
+					<li><a ui-sref=".watch">watch</a></li>
+					<li><a ui-sref=".custom_filters">custom_filters</a></li>
+					<li><a ui-sref=".publisher_Subscriber">publisher_Subscriber</a></li>
+					<li><a ui-sref=".service">service</a></li>
+					<li><a ui-sref=".directive">directive</a></li>
+					<li><a ui-sref=".angularCustomModules">angularCustomModules</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div>
+			<div ui-view>
+				
+			</div>
+		</div>
+		
+		<div class="footer">			
+		</div>
+		
+	</div>
+	
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/ui-bootstrap-tpls-0.12.1.min.js"></script>
+	<script src="js/ng-grid.debug.js"></script>
+	<script src="js/angular-ui-router.min.js"></script>
+	<script src="js/angular-resource.min.js"></script>
+	<script src="js/angular-sanitize.min.js"></script>
+	
+	<script src="js/app/app.js"></script>
+	<script src="js/app/controllers/myController.js"></script>
+	<script src="js/app/controllers/myControllerServiceCallback.js"></script>
+	<script src="js/app/controllers/myControllerServicePromiseAPI.js"></script>
+	<script src="js/app/controllers/myControllerServicePromiseAPICustom.js"></script>
+	<script src="js/app/controllers/myControllerServiceResourceAPI.js"></script>
+	<script src="js/app/controllers/myControllerDirectiveScopeHandling.js"></script>
+	<script src="js/app/controllers/myController_ngGrid.js"></script>
+	<script src="js/app/controllers/myController_angularUIBootstrap_alert.js"></script>
+	<script src="js/app/controllers/myController_angularUIBootstrap_Datepicker.js"></script>
+	<script src="js/app/controllers/myController_angularUIBootstrap_ModalLightBox.js"></script>
+	<script src="js/app/controllers/myController_angularUIBootstrap_Pagination.js"></script>
+	<script src="js/app/controllers/myController_angularUIBootstrap_Popover.js"></script>
+	<script src="js/app/controllers/myController_angularUIBootstrap_Progressbar.js"></script>
+	<script src="js/app/controllers/myController_angularUIBootstrap_Rating.js"></script>
+	
+	<script src="js/app/filters/durationFilter.js"></script>	
+	
+	<script src="js/app/services/service_callbacks.js"></script>	
+	<script src="js/app/services/service_promiseAPI.js"></script>	
+	<script src="js/app/services/service_promiseAPI_custom.js"></script>	
+	<script src="js/app/services/service_resourceAPI.js"></script>	
+	
+	<script src="js/app/directives/directive_Simple.js"></script>	
+	<script src="js/app/directives/directive_ScopeHandling.js"></script>	
+	<script src="js/app/directives/directive_EventHandling.js"></script>	
+	<script src="js/app/directives/directive_Transclusion.js"></script>	
+		
+</body>
+</html>
